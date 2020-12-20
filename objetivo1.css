@@ -1,0 +1,151 @@
+*{
+    border:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contenedor{            
+    margin:0 auto;
+}
+.cabecera{
+    height: 200px;
+    background: black;
+}
+.contenido {
+    display: flex;            
+}
+.logo{
+    padding: 6px;
+}
+.logo img {
+    background: white;
+}
+.titulo{           
+    display:flex;            
+    flex-direction: column;
+    align-items: center;
+}
+h5{
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+}
+h1{           
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+button{
+    color: white;
+    background: gray;
+    padding: 9px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.Responsive {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Standar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Desing {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    padding: 20px;
+}
+
+p {
+    padding: 38px;
+    font-size: 14px;
+    text-align: justify;
+}
+.imagen {
+    height: 100px;
+}
+
+@media screen and (max-width:1200px){
+    .cabecera {
+        height: 180px;
+    }
+    h5 {
+        padding: 8px;
+    }
+    h1 {
+        padding: 5px;
+    }
+    button {
+        padding: 9px;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width:900px){
+    .cabecera {
+        height: 170px;
+    }
+    h5 {
+        padding: 2px;
+    }
+    h1 {
+        padding: 9px;
+    }
+    button {
+        padding: 9px;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .cabecera {
+        height: 240px;
+    }
+    .logo {
+        padding: 3px;
+    }
+    h5 {
+            color: white;
+            padding: 1px;
+            font-family: sans-serif;
+            font-size: 16px;
+        }
+    
+    h1 {
+        color: white;                
+        font-family: sans-serif;
+        font-weight: 200;
+        font-size: 45px;
+        text-align: center;
+    }
+    button {
+        color: white;
+        background: gray;
+        padding: 9px;
+        margin-top: 2px;
+        font-size: 20px;
+    }
+    .contenido {
+    display: flex;
+    flex-direction: column;
+    }
+
+    h2 {
+        padding: 12px;
+        font-size: 25px;
+    }
+    p {            
+        margin: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 15px;
+    }
+}
