@@ -51,7 +51,7 @@ button{
     width: 430px;
     border: 1px solid #80808030;
     box-shadow: 1px 2px 9px 1px #808080c2;
-    height: 400px;
+    height: 420px;
 }
 
 h2 {
@@ -143,7 +143,10 @@ p {
         font-size: 25px;
     }
     .Responsive { 
-        width: 410px;
+        width: 430px;
+    }
+    p{
+        font-size: 15px;
     }
     
 }
