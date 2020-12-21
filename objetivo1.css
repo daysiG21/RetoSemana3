@@ -104,6 +104,7 @@ p {
     }
     .cabecera {
         height: 240px;
+        width: 450px;
     }
     .logo {
         padding: 3px;
