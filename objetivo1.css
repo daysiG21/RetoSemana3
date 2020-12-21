@@ -139,5 +139,8 @@ p {
         padding: 12px;
         font-size: 25px;
     }
+    .Responsive { 
+        width: 410px;
+    }
     
 }
